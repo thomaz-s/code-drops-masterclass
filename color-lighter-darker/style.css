@@ -1,0 +1,38 @@
+#container{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#color-preview{
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#controls{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#controls label{
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+#base-color{
+    width: 150px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+#result{
+    width: 150px;
+    font-size: 16px;
+    line-height: 20px;
+}
