@@ -1,1 +1,1 @@
-Code of [this playlist](https://www.youtube.com/playlist?list=PL85ITvJ7FLoifcDIBeuuAhh4_799RZaSc) from [Rocketseat](https://github.com/rocketseat)
+Code of [some videos](https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg) from [Rocketseat](https://github.com/rocketseat)
