@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Color Luminosity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="color-preview">
+        </div>
+        <div id="controls">
+            <label for="base-color">Cor Base:</label>
+            <input
+                id="base-color"
+                name="base-color"
+                type="text"
+                onblur="getValues()"
+            />
+
+            <label for="luminosity">Mova para mudar a tonalidade:</label>
+            <input
+                id="luminosity"
+                type="range"
+                name="luminosity"
+                min="-1"
+                max="1"
+                step="0.01"
+            />
+
+            <label for="result">Cor resultante:</label>
+            <input id="result" name="result" type="text" disabled>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

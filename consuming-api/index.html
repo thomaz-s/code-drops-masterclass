@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h3>Loading...</h3>
+    </div>
+    <script>
+
+
+        async function getContent(){
+            try {
+                const res = await fetch("http://localhost:3000");
+                const data = await res.json();
+                show(data);
+            } catch (error) {
+                console.error(error);
+            }
+        }
+
+        getContent();
+
+        function show(users){
+            const container = document.querySelector("div");
+            container.innerHTML = "";
+
+            const ul = document.createElement("ul");
+            for (let user of users){
+                const li = document.createElement("li");
+                li.innerHTML = user.name;
+                ul.appendChild(li);
+            }
+            document.querySelector("body").appendChild(ul);
+        }
+    </script>
+</body>
+</html>
