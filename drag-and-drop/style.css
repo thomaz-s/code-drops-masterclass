@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 html{
     font-family: 'Nunito';
 }
@@ -77,84 +76,4 @@ body{
 
 .card, .dropzone{
     transition: 0.4s;
-=======
-html{
-    font-family: 'Nunito';
-}
-
-body{
-    background: #130f0d;
-    color: white;
-}
-
-.boards{
-    display: flex;
-    margin-top: 32px;
-}
-
-.board{
-    background: #141316;
-    border: 1px solid #fd951f11;
-    border-radius: 4px;
-    margin: 0 16px
-}
-
-.board h3{
-    padding: 16px;
-    margin: 0;
-    color: #fd951fcc        
-}
-
-.board .dropzone{
-    padding: 16px;
-    min-width: 280px;
-    min-height: 200px;
-}
-
-.card{
-    padding: 16px;
-    box-shadow: 0 2px 2px -1px #fd951fcc;
-    width: 250px;
-    margin: 25px 0;
-    border-radius: 4px;
-    font-weight: 600;
-    font-size: 18px;
-    background: #1a1a1c;
-}
-
-.status{
-    width: 30px;
-    height: 8px;
-    margin-bottom: 16px;
-    border-radius: 8px;
-}
-
-.status.green{
-    background: #23d2ac;
-}
-
-.status.blue{
-    background: #33adff;
-}
-
-.status.red{
-    background: #ff0000;
-}
-
-.highlight{
-    background: #fd951f08;
-}
-
-.is-dragging{
-    cursor: move;
-    opacity: 0.3;
-}
-
-.over{
-    background: #4cb13711;
-}
-
-.card, .dropzone{
-    transition: 0.4s;
->>>>>>> 7653609873538b48e64da101a9de90d686ca8ba4
 }
