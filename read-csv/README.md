@@ -1,0 +1,1 @@
+[Code/Drops #90](https://www.youtube.com/watch?v=moQRSQR1ATw), porém sem a parte de inserção no banco de dados. O arquivo CSV utilizado deve conter 4 colunas, sendo as duas primeiras string e as outras numéricas.
